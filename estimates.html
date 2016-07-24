@@ -93,19 +93,69 @@
 
 <!-- Beginning of the section containing the tabs list & their content-->
 <section class="container">
-  <!-- Beginning of the tabs list -->
-  <ul class="nav nav-tabs " role="tablist">
-    <li class="nav-item active" role="cost">
-      <a class="nav-link" data-toggle="tab" href="#include" role="tab"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Cost estimates</a>
-    </li>
-    <li class="nav-item" role="hours">
-      <a class="nav-link" data-toggle="tab" href="#sibling" role="tab"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;Hours estimates</a>
-    </li>
-    <li class="nav-item" role="appointments">
-      <a class="nav-link" data-toggle="tab" href="#sibling" role="tab"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Appointments estimates</a>
-    </li>
-  </ul>
-  <!-- End of the tabs list -->
+  <h2>Estimates</h2>
+
+  <!-- Beginning of the header of the section which contains the tabs list -->
+  <header>
+    <ul class="nav nav-tabs " role="tablist">
+      <li class="nav-item active" role="cost">
+        <a class="nav-link" data-toggle="tab" href="#cost" role="tab"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Cost estimates</a>
+      </li>
+      <li class="nav-item" role="hours">
+        <a class="nav-link" data-toggle="tab" href="#hours" role="tab"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;Hours estimates</a>
+      </li>
+      <li class="nav-item" role="appointments">
+        <a class="nav-link" data-toggle="tab" href="#appointments" role="tab"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Appointments estimates</a>
+      </li>
+    </ul>
+  </header>
+  <!-- End of the header of the section which contains the tabs list -->
+
+  <!-- Beginning of the section article which contains the tabs content -->
+  <article class="tab-content">
+    <!-- Beginning of the cost-estimates tab -->
+    <div class="tab-pane active" id="cost" role="tabpanel">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Cost estimates</h3>
+        </div>
+        <div class="panel-body">
+        </div>
+      </div>
+    </div>
+    <!-- End of the cost-estimates tab -->
+    <!-- Beginning of the hours-estimates tab -->
+    <div class="tab-pane" id="hours" role="tabpanel">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Hours estimates</h3>
+        </div>
+        <div class="panel-body">
+          <p>
+            Estimates can be carried out Monday-Friday between 8 AM and 5 PM.<br>
+            An appointment can be made, at a time that is the most convenient for you. Estimates outside of these hours can also be arranged.
+            Written estimates will be posted - or emailed - within 48 hours of an estimator's visit and are valid for 6 months.
+          </p>
+          <p>For urgent work, estimates can be arranged promptly and work can then commence immediately.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of the hours-estimates tab -->
+    <!-- Beginning of the appointments-estimates tab -->
+    <div class="tab-pane" id="appointments" role="tabpanel">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Appointments estimates</h3>
+        </div>
+        <div class="panel-body">
+          <p>I will evaluate the work there's to do, &amp; provide you with a detailed description of the estimate, a full breakdown of the costs and organise a schedule.</p>
+          <p>I will also keep you updated on all the carried out work &amp; inform you of its progress.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of the appointments-estimates tab -->
+  </article>
+  <!-- End of the section article which contains the tabs content -->
 </section>
 <!-- End of the section containing the tabs list & their content -->
 
