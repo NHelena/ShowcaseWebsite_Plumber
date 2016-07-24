@@ -17,7 +17,14 @@
    FOOTER
 ============================================================================== */
 
-
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-top: auto;
+}
 
 /* #############################################################################
 ##############################   SPECIFIC PAGES   ##############################
