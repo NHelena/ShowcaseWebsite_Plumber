@@ -77,5 +77,39 @@ footer p {
 ############################################################################## */
 
 /* =============================================================================
+   "Index" page
+============================================================================== */
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-bottom: 2em;
+}
+
+/* =============================================================================
    "Estimates" page
 ============================================================================== */
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-bottom: 2em;
+}
+
+.tab-content {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  background-color: white;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.panel {
+  margin-right: 1em;
+  margin-left: 1em;
+}
