@@ -52,161 +52,180 @@
 <!-- ==========================================================================
    Header which contains the navigation top-bar
 =========================================================================== -->
-<header class="header">
-  <!-- Beginning of the navigation top-bar -->
-  <nav class="navbar navbar-default" role="navigation">
-    <!-- Beginning of the navigation top-bar container -->
-    <div class="container-fluid">
-      <!-- Beginning of the navbar header which contains the small devices collapsed button & the brand name -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsing-navbar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://nhelena.github.io/ShowcaseWebsite_Plumber/index.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;John Pipe</a>
-      </div>
-      <!-- End of the navbar header which contains the small devices collapsed button & the brand name -->
-      <!-- Beginning of the content of the navigation top-bar -->
-      <div class="collapse navbar-collapse" id="collapsing-navbar">
-        <ul class="nav navbar-nav pull-right">
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li>
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/services.html"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Services</a></li>
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/charges.html"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Charges</a></li>
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/guarantee.html"><i class="fa fa-certificate" aria-hidden="true"></i>&nbsp;&nbsp;Guarantee</a></li>
-          <li class="active"><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/estimates.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;Estimates<span class="sr-only"> (current)</span></a></li>
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/about.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;About Me</a></li>
-          <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Contact</a></li>
-        </ul>
-      </div>
-      <!-- End of the content of the navigation top-bar -->
-    </div>
-    <!-- End of the navigation top-bar container -->
-  </nav>
-  <!-- End of the navigation top-bar -->
-</header>
+  <header>
+    <!-- Beginning of the navigation top-bar -->
+    <nav class="navbar navbar-default">
+        <!-- Beginning of the navigation top-bar container -->
+        <div class="container-fluid">
+          <!-- Beginning of the navbar header which contains the small devices collapsed button & the brand name -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsing-navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://nhelena.github.io/ShowcaseWebsite_Plumber/index.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;John Pipe</a>
+          </div>
+          <!-- End of the navbar header which contains the small devices collapsed button & the brand name -->
+          <!-- Beginning of the content of the navigation top-bar -->
+          <div class="collapse navbar-collapse" id="collapsing-navbar">
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li>
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/services.html"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Services</a></li>
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/charges.html"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Charges</a></li>
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/guarantee.html"><i class="fa fa-certificate" aria-hidden="true"></i>&nbsp;&nbsp;Guarantee</a></li>
+              <li class="active"><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/estimates.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;Estimates<span class="sr-only"> (current)</span></a></li>
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/about.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;About Me</a></li>
+              <li><a href="https://nhelena.github.io/ShowcaseWebsite_Plumber/contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Contact</a></li>
+            </ul>
+          </div>
+            <!-- End of the content of the navigation top-bar -->
+        </div>
+        <!-- End of the navigation top-bar container -->
+    </nav>
+    <!-- End of the navigation top-bar -->
+
+    <!-- Horizontal decorative line which show the name of the website -->
+    <hr class="h1-horizontal-line">
+  </header>
 
 <!-- ===========================================================================
    Section which contains the content of the page
 =========================================================================== -->
-
 <!-- Beginning of the section containing the tabs list & their content-->
-<section class="container">
-  <h2>Estimates</h2>
+  <section class="container well" role="main">
 
-  <!-- Beginning of the header of the section which contains the tabs list -->
-  <header>
-    <ul class="nav nav-tabs " role="tablist">
-      <li class="nav-item active" role="cost">
-        <a class="nav-link" data-toggle="tab" href="#cost" role="tab"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Cost estimates</a>
-      </li>
-      <li class="nav-item" role="hours">
-        <a class="nav-link" data-toggle="tab" href="#hours" role="tab"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;Hours estimates</a>
-      </li>
-      <li class="nav-item" role="appointments">
-        <a class="nav-link" data-toggle="tab" href="#appointments" role="tab"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Appointments estimates</a>
-      </li>
-    </ul>
-  </header>
-  <!-- End of the header of the section which contains the tabs list -->
+    <!-- Beginning of the section header which contains the heading of the page & the tabs navlist-->
+    <header>
+      <!-- Second-level heading of the section which contains the content of the page -->
+      <h2>Estimates</h2>
+      <!-- Decorative horizontal line placed below the second-level heading -->
+      <hr class="h2-horizontal-line">
+      <!-- Beginning of the nav which contains the tabs list -->
+      <nav>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item active" role="tab">
+            <a class="nav-link" data-toggle="tab" href="#cost" role="tab"><i class="fa fa-eur" aria-hidden="true"></i>&nbsp;&nbsp;Cost estimates</a>
+          </li>
+          <li class="nav-item" role="tab">
+            <a class="nav-link" data-toggle="tab" href="#hours" role="tab"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;Hours estimates</a>
+          </li>
+          <li class="nav-item" role="tab">
+            <a class="nav-link" data-toggle="tab" href="#appointments" role="tab"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Appointments estimates</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of the nav which contains the tabs list -->
+    </header>
+    <!-- End of the section header-->
 
-  <!-- Beginning of the section article which contains the tabs content -->
-  <article class="tab-content">
-    <!-- Beginning of the cost-estimates tab -->
-    <div class="tab-pane active" id="cost" role="tabpanel">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Cost estimates</h3>
-        </div>
-        <div class="panel-body">
-          <form class="form-horizontal">
-            <div class="form-group">
-              <label for="name" class="col-sm-2 control-label">Full name</label>
-              <div class="col-sm-8 input-group">
-                <span class="input-group-addon" id="name-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" id="name" placeholder="Your full name">
+    <!-- Beginning of the section article which contains the tabs content -->
+    <article class="tab-content">
+      <!-- Beginning of the cost-estimates tab -->
+      <div class="tab-pane active" id="cost" role="tabpanel">
+        <div class="panel panel-primary">
+          <!-- Beginning of the cost-estimates tab heading -->
+          <div class="panel-heading">
+            <h3 class="panel-title">Cost estimates</h3>
+          </div>
+          <!-- End of the cost-estimates tab heading -->
+          <!-- Beginning of the cost-estimates tab body content -->
+          <div class="panel-body">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Full name</label>
+                <div class="col-sm-8 input-group">
+                  <span class="input-group-addon" id="name-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="email" class="col-sm-2 control-label">E-mail address</label>
-              <div class="col-sm-8 input-group">
-                <span class="input-group-addon" id="email-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" id="email" placeholder="Your e-mail address">
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">E-mail address</label>
+                <div class="col-sm-8 input-group">
+                  <span class="input-group-addon" id="email-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" id="email" placeholder="An e-mail address where I can write you back" required>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="phone" class="col-sm-2 control-label">Phone number</label>
-              <div class="col-sm-8 input-group">
-                <span class="input-group-addon" id="phone-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                <input type="tel" class="form-control" id="phone" placeholder="Your phone number">
+              <div class="form-group">
+                <label for="phone" class="col-sm-2 control-label">Phone number</label>
+                <div class="col-sm-8 input-group">
+                  <span class="input-group-addon" id="phone-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                  <input type="tel" class="form-control" id="phone" placeholder="Your phone number where I can reach you at" required>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="message" class="col-sm-2 control-label">Message</label>
-              <div class="col-sm-8 input-group">
-                <span class="input-group-addon" id="message-addon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
-                <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+              <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-8 input-group">
+                  <span class="input-group-addon" id="message-addon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Your message - Please detail your situation &amp; the problems you encounter" required></textarea>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-offset-4 col-sm-6">
-              <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;&nbsp;Send your request</button>
-            </div>
-          </form>
+              <div class="col-sm-offset-4 col-sm-6">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;&nbsp;Send your request</button>
+              </div>
+            </form>
+          </div>
+          <!-- End of the cost-estimates tab body content -->
         </div>
       </div>
-    </div>
-    <!-- End of the cost-estimates tab -->
-    <!-- Beginning of the hours-estimates tab -->
-    <div class="tab-pane" id="hours" role="tabpanel">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Hours estimates</h3>
-        </div>
-        <div class="panel-body">
-          <p>
-            Estimates can be carried out Monday-Friday between 8 AM and 5 PM.<br>
-            An appointment can be made, at a time that is the most convenient for you. Estimates outside of these hours can also be arranged.
-            Written estimates will be posted - or emailed - within 48 hours of an estimator's visit and are valid for 6 months.
-          </p>
-          <p>For urgent work, estimates can be arranged promptly and work can then commence immediately.</p>
-        </div>
-      </div>
-    </div>
-    <!-- End of the hours-estimates tab -->
-    <!-- Beginning of the appointments-estimates tab -->
-    <div class="tab-pane" id="appointments" role="tabpanel">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Appointments estimates</h3>
-        </div>
-        <div class="panel-body">
-          <p>I will evaluate the work there's to do, &amp; provide you with a detailed description of the estimate, a full breakdown of the costs and organise a schedule.</p>
-          <p>I will also keep you updated on all the carried out work &amp; inform you of its progress.</p>
+      <!-- End of the cost-estimates tab -->
+      <!-- Beginning of the hours-estimates tab -->
+      <div class="tab-pane" id="hours" role="tabpanel">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Hours estimates</h3>
+          </div>
+          <div class="panel-body">
+            <p class="text-justify">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Estimates can be carried out Monday-Friday between 8 AM and 5 PM.
+              <br>
+              An appointment can be scheduled, at a time that is the most convenient for you. Estimates outside of these hours can also be arranged. Written estimates will be posted - or emailed, according to your preferences - within 48 hours of an estimator's visit and are valid for 6 months.
+            </p>
+            <p class="text-justify"><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;For urgent work, estimates can be arranged promptly and work can then commence immediately.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- End of the appointments-estimates tab -->
-  </article>
-  <!-- End of the section article which contains the tabs content -->
-</section>
-<!-- End of the section containing the tabs list & their content -->
+      <!-- End of the hours-estimates tab -->
+      <!-- Beginning of the appointments-estimates tab -->
+      <div class="tab-pane" id="appointments" role="tabpanel">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Appointments estimates</h3>
+          </div>
+          <div class="panel-body">
+            <p class="text-justify"><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;I will evaluate the work there's to do, &amp; provide you with a detailed description of the estimate, a full breakdown of the costs and organise a schedule.</p>
+            <p class="text-justify"><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;I will also keep you updated on all the carried out work &amp; inform you of its progress.</p>
+          </div>
+        </div>
+      </div>
+      <!-- End of the appointments-estimates tab -->
+    </article>
+    <!-- End of the section article which contains the tabs content -->
+  </section>
+  <!-- End of the section containing the tabs list & their content -->
+
 
 <!-- ==========================================================================
    Footer
 =========================================================================== -->
   <footer>
-    <aside class="button-back-top">
-      <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>&nbsp;To the top</a>
-    </aside>
+    <!-- Beginning of the left content of the footer -->
     <aside class="copyright">
       <p><i class="fa fa-copyright" aria-hidden="true"></i> Hélèna Nguyen</p>
     </aside>
+    <!-- End of the left content of the footer -->
+
+    <!-- Beginning of the right content of the footer -->
+    <aside class="button-back-top">
+      <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>&nbsp;To the top</a>
+    </aside>
+    <!-- End of the right content of the footer -->
   </footer>
 
 
 <!-- ==========================================================================
-   Bootstrap core JavaScript scrips
+  Bootstrap core JavaScript scripts
 =========================================================================== -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
