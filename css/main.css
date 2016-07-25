@@ -2,16 +2,48 @@
 ##############################   OVERALL STYLES   ##############################
 ############################################################################## */
 
-
 /* =============================================================================
    HEADER
 ============================================================================== */
+
+/* Style of the horizontal line used below the h1 & the h2 tags */
+.h1-horizontal-line, .h2-horizontal-line {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+/* Style of the horizontal line used below the h1 tags */
+.h1-horizontal-line {
+  text-align: center;
+  margin-top: 6em;
+}
+
+.h1-horizontal-line:after {
+  border: 0;
+  height: 1px;
+  content: "John's Pipe plumbering services";
+  display: inline-block;
+  position: relative;
+  top: -1.5em;
+  font-size: 35px;
+  background: white;
+}
 
 
 /* =============================================================================
    BODY
 ============================================================================== */
 
+/* Required, so that the footer stays fixed at the bottom of the page */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 /* =============================================================================
    FOOTER
@@ -31,17 +63,5 @@ footer {
 ############################################################################## */
 
 /* =============================================================================
-   "Portfolio" page
-============================================================================== */
-
-
-
-/* =============================================================================
-   "À propos" page
-============================================================================== */
-
-
-
-/* =============================================================================
-   "Contact" page
+   "xx" page
 ============================================================================== */
