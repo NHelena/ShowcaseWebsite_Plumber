@@ -3,12 +3,13 @@
 ############################################################################## */
 
 /*
-White : #FFFFFF;
-Light gray : #EEEEEE;
-Light orange : #F7AB20;
+White : #FFF;
+Pearl gray : #EEE;
+Mouse gray : #DDD;
+Lighter orange : #F7AB20;
 Orange : #FFA500;
-Light blue : #61B6FF;
-Blue : #337AB7;
+Baby blue : #61B6FF;
+Celestial blue : #337AB7;
 */
 
 /* #############################################################################
@@ -24,9 +25,9 @@ Blue : #337AB7;
 ***************************************************************************** */
 
 @media (max-width: 768px) {
-  .navbar-default .navbar-nav>li>a:focus,
-  .navbar-default .navbar-nav>.active>a,
-  .navbar-default .navbar-nav>.active>a:focus {
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus {
     background-color: #61B6FF;
     color: #FFA500;
   }
@@ -37,7 +38,7 @@ Blue : #337AB7;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFFFFF;
+    background-color: #FFF;
   }
 }
 
@@ -48,15 +49,15 @@ Blue : #337AB7;
 
 @media (min-width: 768px) {
   /* Set a decorative bottom border on the nav-links over hovering */
-  .navbar-nav>li>a:hover,
-  .navbar-nav>.active>a,
-  .navbar-default .navbar-nav>li>a:focus {
+  .navbar-nav > li > a:hover,
+  .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > li > a:focus {
     border-bottom: 3px solid #FFA500;
   }
 
-  .navbar-default .navbar-nav>li>a:focus,
-  .navbar-default .navbar-nav>.active>a,
-  .navbar-default .navbar-nav>.active>a:focus {
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus {
     color: #FFA500;
     background-color: #61B6FF;
   }
@@ -75,18 +76,15 @@ Blue : #337AB7;
   background-color: #337AB7;
 }
 
-/* --------------------------------------------
-   Active menu */
-
 /* Set the navbar links to bold when being active */
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav > .active > a {
   font-weight: bold;
 }
 
 /* Set the font color of the navbar links & brand */
-.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 /* Set the font color of the brand over hovering & focusing*/
@@ -96,35 +94,35 @@ Blue : #337AB7;
 }
 
 /* Set the background & the font-color of the navbar [active] links over hovering & being active */
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a {
   background-color: #61B6FF;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Decorative horizontal lines */
 
-/* Style of the horizontal line used below the h1 & the h2 tags */
+/* Style the horizontal line used below the h1 & the h2 tags */
 .h1-horizontal-line, .h2-horizontal-line {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, #FFFFFF, #337AB7, #FFFFFF);
-  background-image: -moz-linear-gradient(left, #FFFFFF, #337AB7, #FFFFFF);
-  background-image: -ms-linear-gradient(left, #FFFFFF, #337AB7, #FFFFFF);
-  background-image: -o-linear-gradient(left, #FFFFFF, #337AB7, #FFFFFF);
+  background-image: -webkit-linear-gradient(left, #FFF, #337AB7, #FFF);
+  background-image: -moz-linear-gradient(left, #FFF, #337AB7, #FFF);
+  background-image: -ms-linear-gradient(left, #FFF, #337AB7, #FFF);
+  background-image: -o-linear-gradient(left, #FFF, #337AB7, #FFF);
   margin-bottom: 3em;
 }
 
-/* Style of the horizontal line used below the h1 tags */
+/* Style the horizontal line used below the h1 tags */
 .h1-horizontal-line {
   text-align: center;
-  background-image: -webkit-linear-gradient(left, #EEEEEE, #337AB7, #EEEEEE);
-  background-image: -moz-linear-gradient(left, #EEEEEE, #337AB7, #EEEEEE);
-  background-image: -ms-linear-gradient(left, #EEEEEE, #337AB7, #EEEEEE);
-  background-image: -o-linear-gradient(left, #EEEEEE, #337AB7, #EEEEEE);
+  background-image: -webkit-linear-gradient(left, #EEE, #337AB7, #EEE);
+  background-image: -moz-linear-gradient(left, #EEE, #337AB7, #EEE);
+  background-image: -ms-linear-gradient(left, #EEE, #337AB7, #EEE);
+  background-image: -o-linear-gradient(left, #EEE, #337AB7, #EEE);
   margin-top: 6em;
 }
 
@@ -136,7 +134,7 @@ Blue : #337AB7;
   position: relative;
   top: -1.5em;
   font-size: 35px;
-  background: #FFFFFF;
+  background: #FFF;
 }
 
 
@@ -150,13 +148,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #EEEEEE;
+  background-color: #EEE;
 }
 
 .well {
   margin-top: 15px;
   padding-top: 5px;
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 
 
@@ -179,10 +177,11 @@ footer {
 }
 
 footer, footer>aside>a {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-footer>aside>a:hover {
+footer > aside > a:hover,
+footer > aside > a:focus {
   color: #FFA500;
   text-decoration: none;
 }
@@ -216,32 +215,40 @@ footer p {
    "ESTIMATES" PAGE
 ============================================================================== */
 
+/* Narrow a bit the panel */
 .panel {
   margin-right: 1em;
   margin-left: 1em;
 }
 
+
 .tab-content {
   padding-top: 1.5em;
   padding-bottom: 0.5em;
-  background-color: #EEEEEE;
-  border-left: 1px solid #DDDDDD;
-  border-right: 1px solid #DDDDDD;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: #EEE;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
 }
 
-.nav>li>a:hover,
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover {
-  background-color: #EEEEEE;
+/* Set the background color to pearl gray */
+.nav > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #EEE;
 }
 
-.nav-tabs>li.active>a {
+/* Set the font color to orange */
+.nav > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
   color: #FFA500;
 }
 
-.nav-tabs>li>a:hover {
-  border-color: #DDDDDD #DDDDDD #EEEEEE;
+.nav-tabs > li > a:hover {
+  border-color: #DDD #DDD #EEE;
 }
 
 
